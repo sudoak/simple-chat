@@ -1,0 +1,42 @@
+{
+  "name": "git-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudoak/git-init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudoak/git-init/issues"
+  },
+  "homepage": "https://github.com/sudoak/git-init#readme",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.5",
+    "@octokit/rest": "^18.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "dayjs": "^1.8.28",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.2.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.4",
+    "sha-1": "^0.1.1",
+    "sha1": "^1.1.1",
+    "simple-git": "^2.7.0",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
